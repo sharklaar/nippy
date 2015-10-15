@@ -18,7 +18,7 @@ namespace Nippy
 
             bundles.Add(new StyleBundle("~/bundles/styles").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css",
+                        "~/Content/Styles/Styles.css",
                       "~/Content/themes/base/*.css"));
 
 

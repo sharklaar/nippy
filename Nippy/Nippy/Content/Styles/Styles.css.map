@@ -1,0 +1,12 @@
+﻿{
+	"version": 3,
+	"file": "Styles.css",
+	"sources": [
+		"Styles.scss",
+		"Partials/_colors.scss",
+		"Partials/_desktop.scss"
+	],
+	"sourcesContent": [],
+	"mappings": "AEAA,IAAI,CAAC;EACD,gBAAgB,EDDL,OAAO;CCAhB",
+	"names": []
+}
