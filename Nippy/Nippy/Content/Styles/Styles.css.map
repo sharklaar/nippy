@@ -4,9 +4,10 @@
 	"sources": [
 		"Styles.scss",
 		"Partials/_colors.scss",
-		"Partials/_desktop.scss"
+		"Partials/_desktop.scss",
+		"Partials/_framework.scss"
 	],
 	"sourcesContent": [],
-	"mappings": "AEAA,IAAI,CAAC;EACD,gBAAgB,EDDL,OAAO;CCAhB",
+	"mappings": "AEAA,IAAI,CAAC;EACD,gBAAgB,EDDL,OAAO;CCAhB;;ACAN,IAAI,CAAC;EACD,KAAK,EAAE,IAAK;CADV",
 	"names": []
 }
