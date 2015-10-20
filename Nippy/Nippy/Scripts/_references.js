@@ -5,4 +5,6 @@
 /// <reference path="jquery.validate.js" />
 /// <reference path="jquery.validate.unobtrusive.min.js" />
 /// <reference path="jquery-ui.min-1.11.1.js" />
-/// <reference path="../content/scripts/capture.js" />
+/// <reference path="knockout-3.3.0.js" />
+/// <reference path="custom/capture.js" />
+/// <reference path="custom/applicationviewmodel.js" />

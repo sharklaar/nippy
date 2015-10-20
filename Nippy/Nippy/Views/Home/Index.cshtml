@@ -1,10 +1,26 @@
 ﻿@{
     ViewBag.Title = "Home";
 }
-<script type="text/javascript" src="~/Content/scripts/capture.js"></script>
-<h2 class="text-danger text-uppercase">I am Nippy</h2>
+@*<script type="text/javascript" src="~/Content/scripts/capture.js"></script>*@
 
-<p>Send us a picture of the thing...</p>
-<video id="video" width="640" height="480" autoplay></video>
-<button id="snap">Snap Photo</button>
-<canvas id="canvas" width="640" height="480"></canvas>
+<header>
+    <h2 class="text-danger text-uppercase">I am Nippy</h2>
+    <nav>
+        <ul>
+            <li>
+                Home
+            </li>
+            <li>
+                Your Account
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<section id="buttons">
+    <button type="button" class="prev-button" data-bind="click:previousStep">Previous</button>
+    <p data-bind="text: currentStep"></p>
+    <button type="button" class="next-button" data-bind="click:nextStep">Next</button>
+</section>

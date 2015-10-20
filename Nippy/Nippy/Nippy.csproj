@@ -144,7 +144,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\scripts\capture.js" />
+    <Content Include="Scripts\custom\ApplicationViewModel.js" />
+    <Content Include="Scripts\custom\capture.js" />
+    <Content Include="Scripts\knockout-3.3.0.js" />
     <Content Include="Content\site.css" />
     <Content Include="Content\Styles\Styles.css">
       <DependentUpon>Styles.scss</DependentUpon>
@@ -225,6 +227,10 @@
       <DependentUpon>Styles.css</DependentUpon>
     </Content>
     <Content Include="Content\Styles\Partials\_desktop.scss" />
+    <Content Include="Content\Styles\Partials\_reset.scss" />
+    <Content Include="Content\Styles\Partials\_mobile.scss" />
+    <Content Include="Content\Styles\Partials\_variables.scss" />
+    <Content Include="Content\Styles\Partials\_base.scss" />
     <None Include="Scripts\jquery-2.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -252,9 +258,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-2.1.1.min.map" />
     <Content Include="Views\Error\Http404.cshtml" />
+    <Content Include="Views\Partials\_capture.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\scripts\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

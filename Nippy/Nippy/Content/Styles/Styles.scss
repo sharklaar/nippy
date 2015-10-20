@@ -1,3 +1,7 @@
-﻿@import "Partials/_colors.scss";
-@import "Partials/_desktop.scss";
-@import "Partials/_framework.scss";
+﻿
+@import "Partials/_reset.scss";
+@import "Partials/_colors.scss";
+@import "Partials/_base.scss";
+@import "Partials/_variables.scss";
+@import "Partials/_mobile.scss";
+@import "Partials/_desktop.scss"; 
